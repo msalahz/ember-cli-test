@@ -27,7 +27,7 @@ module.exports = function(environment) {
     authorizer: 'authorizer:custom',//The authorizer factory to use as it is registered with Ember's container
     authenticate: 'authenticator:custom',//The authenticator factory to use as it is registered with Ember's container
     session: 'simple-auth-session:main', //The session factory to use as it is registered with Ember's container
-    store: 'simple-auth-session-store:local-storage',//The store factory to use as it is registered with Ember's container
+    store: 'simple-auth-session-store:cookie',//The store factory to use as it is registered with Ember's container
     key: 'ember_simple_auth:session',//The key the store stores the data in.
     crossOriginWhitelist: ['*'] //enable authorization for whitelist external origins
   };

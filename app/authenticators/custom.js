@@ -13,7 +13,7 @@ export default Base.extend({
     // This method returns a promise.
     return new Ember.RSVP.Promise(function (resolve, reject) {
       // validate token
-      if (!_.isEmpty(data.token)) {
+      if (!Ember.isEmpty(data.token)) {
         // A resolving promise will result in the session being authenticated.
         resolve(data);
       } else {
@@ -27,7 +27,7 @@ export default Base.extend({
     // This method returns a promise.
     return new Ember.RSVP.Promise(function (resolve, reject) {
       // validate token
-      if (!_.isEmpty(data.token)) { console.log('authenticate: ', new Date());
+      if (!Ember.isEmpty(data.token)) { console.log('authenticate: ', new Date());
         // A resolving promise will result in the session being authenticated.
         resolve(data);
       } else {

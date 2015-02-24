@@ -21,7 +21,30 @@ Concat: Vendor                 | 279ms
 TreeMerger (appAndDependencies) | 159ms
 Funnel: App JS Files           | 78ms
 TreeMerger (vendor)            | 75ms
+```
 
+### with cookie store
+
+## Init
+```
+Build successful - 4613ms.
+
+Slowest Trees                  | Total
+-------------------------------+----------------
+Concat: Vendor                 | 3132ms
+```
+
+## Incremental
+```
+Build successful - 1312ms.
+
+Slowest Trees                  | Total
+-------------------------------+----------------
+Concat: Vendor                 | 178ms
+SixToFive                      | 114ms
+TreeMerger (vendor)            | 101ms
+Funnel: App JS Files           | 84ms
+TreeMerger (appAndDependencies) | 80ms
 ```
 
 ## Prerequisites
