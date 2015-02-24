@@ -4,23 +4,24 @@
 
 ## Init
 ```
-Build successful - 4299ms.
+Build successful - 4085ms.
 
 Slowest Trees                  | Total
 -------------------------------+----------------
-Concat: Vendor                 | 3083ms
+Concat: Vendor                 | 2922ms
 ```
 
 ## Incremental
 ```
-Build successful - 1497ms.
+Build successful - 1075ms.
 
 Slowest Trees                  | Total
 -------------------------------+----------------
-Concat: Vendor                 | 167ms
-TreeMerger (vendor)            | 139ms
-TreeMerger (appAndDependencies) | 119ms
-SixToFive                      | 76ms
+Concat: Vendor                 | 169ms
+TreeMerger (vendor)            | 78ms
+TreeMerger (appAndDependencies) | 74ms
+Funnel: App JS Files           | 67ms
+SixToFive                      | 61ms
 ```
 
 ## Prerequisites
