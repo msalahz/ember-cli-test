@@ -1,7 +1,27 @@
 # Ember-cli-test
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Build times
+
+## Init
+```
+Build successful - 4299ms.
+
+Slowest Trees                  | Total
+-------------------------------+----------------
+Concat: Vendor                 | 3083ms
+```
+
+## Incremental
+```
+Build successful - 1497ms.
+
+Slowest Trees                  | Total
+-------------------------------+----------------
+Concat: Vendor                 | 167ms
+TreeMerger (vendor)            | 139ms
+TreeMerger (appAndDependencies) | 119ms
+SixToFive                      | 76ms
+```
 
 ## Prerequisites
 
